@@ -16,13 +16,13 @@ bg_img = pygame.image.load('background.png')
 bg_img = pygame.transform.scale(bg_img, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 player_img = pygame.image.load('luce.png')
-player_img = pygame.transform.scale(player_img, (50, 50))
+player_img = pygame.transform.scale(player_img, (25, 25))
 
 ammo_img = pygame.image.load('laser.png')
-ammo_img = pygame.transform.scale(ammo_img, (5, 10))
+ammo_img = pygame.transform.scale(ammo_img, (2, 6))
 
 enemy_img = pygame.image.load('light.png')
-enemy_img = pygame.transform.scale(enemy_img, (50, 50))
+enemy_img = pygame.transform.scale(enemy_img, (25, 25))
 
 #you/playing person/player
 player_width = player_img.get_width()
